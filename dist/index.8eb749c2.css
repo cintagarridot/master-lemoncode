@@ -1,0 +1,51 @@
+.container {
+  flex-flow: column wrap;
+  margin: 5px;
+  display: flex;
+}
+
+.box, .base, .important, .warning, .box-with-shadow {
+  border: 1px solid gray;
+  border-radius: 1px;
+  align-items: center;
+  width: 6vw;
+  height: 4vh;
+  padding: 35px;
+  font-weight: bold;
+  display: flex;
+}
+
+.font-style, .principal-font, .secondary-font {
+  padding-top: 15px;
+}
+
+.radius, .box-with-shadow, .warning, .important, .base {
+  border-radius: 5%;
+}
+
+.base {
+  background-color: #00f;
+}
+
+.important {
+  background-color: #00008b;
+}
+
+.warning {
+  background-color: #0ff;
+}
+
+.principal-font {
+  font-family: Courier New, Courier, monospace;
+}
+
+.secondary-font {
+  font-family: serif;
+}
+
+.box-with-shadow {
+  margin-top: 15px;
+  box-shadow: 20px 20px 10px -10px #000;
+}
+
+/*# sourceMappingURL=index.8eb749c2.css.map */
